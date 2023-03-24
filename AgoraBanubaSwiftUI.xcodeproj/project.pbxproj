@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974D0BFEFB1E208169254F48 /* Pods_AgoraBanubaSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFFFADDF1F642CB1A51038F /* Pods_AgoraBanubaSwiftUI.framework */; };
+		F3A293B529CD8FE4007E435C /* BanubaFiltersAgoraExtension in Frameworks */ = {isa = PBXBuildFile; productRef = F3A293B429CD8FE4007E435C /* BanubaFiltersAgoraExtension */; };
+		F3A293BA29CDC057007E435C /* effects in Resources */ = {isa = PBXBuildFile; fileRef = F3A293B929CDC057007E435C /* effects */; };
+		F3A293BF29CDC501007E435C /* AgoraBanubaExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293BE29CDC501007E435C /* AgoraBanubaExtensionView.swift */; };
+		F3A293C129CDD2A4007E435C /* EffectsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293C029CDD2A4007E435C /* EffectsService.swift */; };
+		F3A293C329CDD54B007E435C /* ScrollingSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293C229CDD54B007E435C /* ScrollingSelectorView.swift */; };
+		F3A293C629CDE7DE007E435C /* AgoraVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F3A293C529CDE7DE007E435C /* AgoraVideoSwiftUI */; };
+		F3A293C829CDEB2F007E435C /* AppKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293C729CDEB2F007E435C /* AppKeys.swift */; };
+		F3CA2CF229CB03E600561441 /* SwiftUICanvasViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2CF129CB03E600561441 /* SwiftUICanvasViewApp.swift */; };
+		F3CA2CF429CB03E600561441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2CF329CB03E600561441 /* ContentView.swift */; };
+		F3CA2CF629CB03E800561441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CA2CF529CB03E800561441 /* Assets.xcassets */; };
+		F3CA2CF929CB03E800561441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CA2CF829CB03E800561441 /* Preview Assets.xcassets */; };
+		F3CA2D0129CB042600561441 /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = F3CA2D0029CB042600561441 /* RtcBasic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		561483A9F47755BA4CF2E554 /* Pods-SwiftUICanvasView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUICanvasView.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUICanvasView/Pods-SwiftUICanvasView.debug.xcconfig"; sourceTree = "<group>"; };
+		7DFFFADDF1F642CB1A51038F /* Pods_AgoraBanubaSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraBanubaSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BEC9C494C2E6AEA8502B75 /* Pods-SwiftUICanvasView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUICanvasView.release.xcconfig"; path = "Target Support Files/Pods-SwiftUICanvasView/Pods-SwiftUICanvasView.release.xcconfig"; sourceTree = "<group>"; };
+		E6ECB95453377376B58C2598 /* Pods-AgoraBanubaSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraBanubaSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		F0F9DB1354C82EFA0D9AF4F2 /* Pods-AgoraBanubaSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraBanubaSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		F3A293B929CDC057007E435C /* effects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = effects; sourceTree = "<group>"; };
+		F3A293BE29CDC501007E435C /* AgoraBanubaExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraBanubaExtensionView.swift; sourceTree = "<group>"; };
+		F3A293C029CDD2A4007E435C /* EffectsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsService.swift; sourceTree = "<group>"; };
+		F3A293C229CDD54B007E435C /* ScrollingSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingSelectorView.swift; sourceTree = "<group>"; };
+		F3A293C729CDEB2F007E435C /* AppKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKeys.swift; sourceTree = "<group>"; };
+		F3CA2CEE29CB03E600561441 /* AgoraBanubaSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraBanubaSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CA2CF129CB03E600561441 /* SwiftUICanvasViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICanvasViewApp.swift; sourceTree = "<group>"; };
+		F3CA2CF329CB03E600561441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3CA2CF529CB03E800561441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CA2CF829CB03E800561441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CA2CEB29CB03E600561441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CA2D0129CB042600561441 /* RtcBasic in Frameworks */,
+				F3A293C629CDE7DE007E435C /* AgoraVideoSwiftUI in Frameworks */,
+				F3A293B529CD8FE4007E435C /* BanubaFiltersAgoraExtension in Frameworks */,
+				974D0BFEFB1E208169254F48 /* Pods_AgoraBanubaSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335F51B95DB9C86782F501DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFFADDF1F642CB1A51038F /* Pods_AgoraBanubaSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB5741AE26A03CB7A285DD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				561483A9F47755BA4CF2E554 /* Pods-SwiftUICanvasView.debug.xcconfig */,
+				B3BEC9C494C2E6AEA8502B75 /* Pods-SwiftUICanvasView.release.xcconfig */,
+				F0F9DB1354C82EFA0D9AF4F2 /* Pods-AgoraBanubaSwiftUI.debug.xcconfig */,
+				E6ECB95453377376B58C2598 /* Pods-AgoraBanubaSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3CA2CE529CB03E600561441 = {
+			isa = PBXGroup;
+			children = (
+				F3CA2CF029CB03E600561441 /* AgoraBanubaSwiftUI */,
+				F3CA2CEF29CB03E600561441 /* Products */,
+				7DB5741AE26A03CB7A285DD7 /* Pods */,
+				335F51B95DB9C86782F501DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CA2CEF29CB03E600561441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA2CEE29CB03E600561441 /* AgoraBanubaSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CA2CF029CB03E600561441 /* AgoraBanubaSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F3A293B929CDC057007E435C /* effects */,
+				F3CA2CF129CB03E600561441 /* SwiftUICanvasViewApp.swift */,
+				F3CA2CF329CB03E600561441 /* ContentView.swift */,
+				F3A293BE29CDC501007E435C /* AgoraBanubaExtensionView.swift */,
+				F3A293C229CDD54B007E435C /* ScrollingSelectorView.swift */,
+				F3A293C029CDD2A4007E435C /* EffectsService.swift */,
+				F3A293C729CDEB2F007E435C /* AppKeys.swift */,
+				F3CA2CF529CB03E800561441 /* Assets.xcassets */,
+				F3CA2CF729CB03E800561441 /* Preview Content */,
+			);
+			path = AgoraBanubaSwiftUI;
+			sourceTree = "<group>";
+		};
+		F3CA2CF729CB03E800561441 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA2CF829CB03E800561441 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CA2CED29CB03E600561441 /* AgoraBanubaSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CA2CFC29CB03E800561441 /* Build configuration list for PBXNativeTarget "AgoraBanubaSwiftUI" */;
+			buildPhases = (
+				0309B55B61C3A7A3B2A5E079 /* [CP] Check Pods Manifest.lock */,
+				F3CA2CEA29CB03E600561441 /* Sources */,
+				F3CA2CEB29CB03E600561441 /* Frameworks */,
+				F3CA2CEC29CB03E600561441 /* Resources */,
+				CC1495DA17B45694BA068162 /* [CP] Embed Pods Frameworks */,
+				4ADAAC8B73A9E502D35CC008 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraBanubaSwiftUI;
+			packageProductDependencies = (
+				F3CA2D0029CB042600561441 /* RtcBasic */,
+				F3A293B429CD8FE4007E435C /* BanubaFiltersAgoraExtension */,
+				F3A293C529CDE7DE007E435C /* AgoraVideoSwiftUI */,
+			);
+			productName = SwiftUICanvasView;
+			productReference = F3CA2CEE29CB03E600561441 /* AgoraBanubaSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CA2CE629CB03E600561441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F3CA2CED29CB03E600561441 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F3CA2CE929CB03E600561441 /* Build configuration list for PBXProject "AgoraBanubaSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CA2CE529CB03E600561441;
+			packageReferences = (
+				F3CA2CFF29CB042600561441 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
+				F3A293B329CD8FE4007E435C /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */,
+				F3A293C429CDE7DE007E435C /* XCRemoteSwiftPackageReference "AgoraVideoSwiftUI" */,
+			);
+			productRefGroup = F3CA2CEF29CB03E600561441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CA2CED29CB03E600561441 /* AgoraBanubaSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CA2CEC29CB03E600561441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A293BA29CDC057007E435C /* effects in Resources */,
+				F3CA2CF929CB03E800561441 /* Preview Assets.xcassets in Resources */,
+				F3CA2CF629CB03E800561441 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0309B55B61C3A7A3B2A5E079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraBanubaSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ADAAC8B73A9E502D35CC008 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1495DA17B45694BA068162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraBanubaSwiftUI/Pods-AgoraBanubaSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CA2CEA29CB03E600561441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A293C129CDD2A4007E435C /* EffectsService.swift in Sources */,
+				F3A293BF29CDC501007E435C /* AgoraBanubaExtensionView.swift in Sources */,
+				F3CA2CF429CB03E600561441 /* ContentView.swift in Sources */,
+				F3A293C829CDEB2F007E435C /* AppKeys.swift in Sources */,
+				F3A293C329CDD54B007E435C /* ScrollingSelectorView.swift in Sources */,
+				F3CA2CF229CB03E600561441 /* SwiftUICanvasViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3CA2CFA29CB03E800561441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3CA2CFB29CB03E800561441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CA2CFD29CB03E800561441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F9DB1354C82EFA0D9AF4F2 /* Pods-AgoraBanubaSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "AgoraBanubaSwiftUI/Preview\\ Content";
+				DEVELOPMENT_TEAM = 278494H572;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.rocketar.SwiftUICanvasView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3CA2CFE29CB03E800561441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ECB95453377376B58C2598 /* Pods-AgoraBanubaSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "AgoraBanubaSwiftUI/Preview\\ Content";
+				DEVELOPMENT_TEAM = 278494H572;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.rocketar.SwiftUICanvasView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CA2CE929CB03E600561441 /* Build configuration list for PBXProject "AgoraBanubaSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CA2CFA29CB03E800561441 /* Debug */,
+				F3CA2CFB29CB03E800561441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CA2CFC29CB03E800561441 /* Build configuration list for PBXNativeTarget "AgoraBanubaSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CA2CFD29CB03E800561441 /* Debug */,
+				F3CA2CFE29CB03E800561441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3A293B329CD8FE4007E435C /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:maxxfrazer/banuba-filters-agora-extension-framework.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		F3A293C429CDE7DE007E435C /* XCRemoteSwiftPackageReference "AgoraVideoSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:AgoraIO-Community/AgoraVideoSwiftUI.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+		F3CA2CFF29CB042600561441 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3A293B429CD8FE4007E435C /* BanubaFiltersAgoraExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3A293B329CD8FE4007E435C /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */;
+			productName = BanubaFiltersAgoraExtension;
+		};
+		F3A293C529CDE7DE007E435C /* AgoraVideoSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3A293C429CDE7DE007E435C /* XCRemoteSwiftPackageReference "AgoraVideoSwiftUI" */;
+			productName = AgoraVideoSwiftUI;
+		};
+		F3CA2D0029CB042600561441 /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3CA2CFF29CB042600561441 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */;
+			productName = RtcBasic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3CA2CE629CB03E600561441 /* Project object */;
+}
