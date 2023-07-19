@@ -15,7 +15,6 @@ class EffectsService {
 
     static func getEffectNames() -> [String] {
         do {
-            let path = effectsURL.path()
             let directoryContents = try FileManager.default.contentsOfDirectory(at: effectsURL, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles])
             return directoryContents.compactMap { $0.hasDirectoryPath ? $0.lastPathComponent : nil }
         } catch {

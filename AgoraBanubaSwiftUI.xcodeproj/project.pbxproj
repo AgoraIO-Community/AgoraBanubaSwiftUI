@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		974D0BFEFB1E208169254F48 /* Pods_AgoraBanubaSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFFFADDF1F642CB1A51038F /* Pods_AgoraBanubaSwiftUI.framework */; };
-		F3A293B529CD8FE4007E435C /* BanubaFiltersAgoraExtension in Frameworks */ = {isa = PBXBuildFile; productRef = F3A293B429CD8FE4007E435C /* BanubaFiltersAgoraExtension */; };
+		F35A427B2A68727300FF93D5 /* SwiftUIRtc in Frameworks */ = {isa = PBXBuildFile; productRef = F35A427A2A68727300FF93D5 /* SwiftUIRtc */; };
+		F35A427E2A687A8200FF93D5 /* BanubaFiltersAgoraExtension in Frameworks */ = {isa = PBXBuildFile; productRef = F35A427D2A687A8200FF93D5 /* BanubaFiltersAgoraExtension */; };
 		F3A293BA29CDC057007E435C /* effects in Resources */ = {isa = PBXBuildFile; fileRef = F3A293B929CDC057007E435C /* effects */; };
 		F3A293BF29CDC501007E435C /* AgoraBanubaExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293BE29CDC501007E435C /* AgoraBanubaExtensionView.swift */; };
 		F3A293C129CDD2A4007E435C /* EffectsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293C029CDD2A4007E435C /* EffectsService.swift */; };
 		F3A293C329CDD54B007E435C /* ScrollingSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293C229CDD54B007E435C /* ScrollingSelectorView.swift */; };
-		F3A293C629CDE7DE007E435C /* AgoraVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F3A293C529CDE7DE007E435C /* AgoraVideoSwiftUI */; };
 		F3A293C829CDEB2F007E435C /* AppKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A293C729CDEB2F007E435C /* AppKeys.swift */; };
 		F3CA2CF229CB03E600561441 /* SwiftUICanvasViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2CF129CB03E600561441 /* SwiftUICanvasViewApp.swift */; };
 		F3CA2CF429CB03E600561441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2CF329CB03E600561441 /* ContentView.swift */; };
@@ -45,9 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35A427E2A687A8200FF93D5 /* BanubaFiltersAgoraExtension in Frameworks */,
 				F3CA2D0129CB042600561441 /* RtcBasic in Frameworks */,
-				F3A293C629CDE7DE007E435C /* AgoraVideoSwiftUI in Frameworks */,
-				F3A293B529CD8FE4007E435C /* BanubaFiltersAgoraExtension in Frameworks */,
+				F35A427B2A68727300FF93D5 /* SwiftUIRtc in Frameworks */,
 				974D0BFEFB1E208169254F48 /* Pods_AgoraBanubaSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +137,8 @@
 			name = AgoraBanubaSwiftUI;
 			packageProductDependencies = (
 				F3CA2D0029CB042600561441 /* RtcBasic */,
-				F3A293B429CD8FE4007E435C /* BanubaFiltersAgoraExtension */,
-				F3A293C529CDE7DE007E435C /* AgoraVideoSwiftUI */,
+				F35A427A2A68727300FF93D5 /* SwiftUIRtc */,
+				F35A427D2A687A8200FF93D5 /* BanubaFiltersAgoraExtension */,
 			);
 			productName = SwiftUICanvasView;
 			productReference = F3CA2CEE29CB03E600561441 /* AgoraBanubaSwiftUI.app */;
@@ -170,8 +170,8 @@
 			mainGroup = F3CA2CE529CB03E600561441;
 			packageReferences = (
 				F3CA2CFF29CB042600561441 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */,
-				F3A293B329CD8FE4007E435C /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */,
-				F3A293C429CDE7DE007E435C /* XCRemoteSwiftPackageReference "AgoraVideoSwiftUI" */,
+				F35A42792A68727300FF93D5 /* XCRemoteSwiftPackageReference "SwiftUIRtc" */,
+				F35A427C2A687A4700FF93D5 /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */,
 			);
 			productRefGroup = F3CA2CEF29CB03E600561441 /* Products */;
 			projectDirPath = "";
@@ -473,20 +473,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F3A293B329CD8FE4007E435C /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */ = {
+		F35A42792A68727300FF93D5 /* XCRemoteSwiftPackageReference "SwiftUIRtc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO-Community/SwiftUIRtc.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		F35A427C2A687A4700FF93D5 /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:maxxfrazer/banuba-filters-agora-extension-framework.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-		F3A293C429CDE7DE007E435C /* XCRemoteSwiftPackageReference "AgoraVideoSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:AgoraIO-Community/AgoraVideoSwiftUI.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.1.2;
+				kind = exactVersion;
+				version = 2.3.0;
 			};
 		};
 		F3CA2CFF29CB042600561441 /* XCRemoteSwiftPackageReference "AgoraRtcEngine_iOS" */ = {
@@ -494,21 +494,21 @@
 			repositoryURL = "https://github.com/AgoraIO/AgoraRtcEngine_iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
+				minimumVersion = 4.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F3A293B429CD8FE4007E435C /* BanubaFiltersAgoraExtension */ = {
+		F35A427A2A68727300FF93D5 /* SwiftUIRtc */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F3A293B329CD8FE4007E435C /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */;
-			productName = BanubaFiltersAgoraExtension;
+			package = F35A42792A68727300FF93D5 /* XCRemoteSwiftPackageReference "SwiftUIRtc" */;
+			productName = SwiftUIRtc;
 		};
-		F3A293C529CDE7DE007E435C /* AgoraVideoSwiftUI */ = {
+		F35A427D2A687A8200FF93D5 /* BanubaFiltersAgoraExtension */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F3A293C429CDE7DE007E435C /* XCRemoteSwiftPackageReference "AgoraVideoSwiftUI" */;
-			productName = AgoraVideoSwiftUI;
+			package = F35A427C2A687A4700FF93D5 /* XCRemoteSwiftPackageReference "banuba-filters-agora-extension-framework" */;
+			productName = BanubaFiltersAgoraExtension;
 		};
 		F3CA2D0029CB042600561441 /* RtcBasic */ = {
 			isa = XCSwiftPackageProductDependency;
